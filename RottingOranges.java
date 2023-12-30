@@ -1,4 +1,5 @@
 994. Rotting Oranges
+    
 
 You are given an m x n grid where each cell can have one of three values:
 
@@ -22,6 +23,8 @@ Input: grid = [[0,2]]
 Output: 0
 Explanation: Since there are already no fresh oranges at minute 0, the answer is just 0.
 
+Solution:
+1. Using BFS
 class Solution {
     int[][] dirs;
     int m;
